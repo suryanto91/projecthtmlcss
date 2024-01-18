@@ -53,14 +53,28 @@
         }
         .content{
             margin-top: 80px;
+            margin-bottom: 80px;
+        }
+        .content-text{
+            column-count: 3;
+            column-gap: 30px;
+            column-width: 200px;
         }
         .table-hobi{
             margin: 80px 0px;
         }
         .table-responsive{
-            width: 80px;
-            
+            width: 100%;
+            border-collapse: collapse; 
 
+        }
+        th,td{
+            border: 1px solid #130e1a;
+            padding: 10px;
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #ecd2b1;
         }
         
         
