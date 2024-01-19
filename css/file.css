@@ -76,5 +76,18 @@
         tr:nth-child(even) {
             background-color: #ecd2b1;
         }
-        
-        
+        .form-collumn{
+            margin: 30px;    
+        }
+        input{
+            width: 100%;
+            border-collapse: collapse; 
+        }
+        select{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        textarea{
+            width: 100%;
+            height: 120px;
+        }
